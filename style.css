@@ -406,7 +406,7 @@ body {
     border-top: 1px solid rgba(0, 212, 255, 0.6);
     border-bottom: 1px solid rgba(0, 212, 255, 0.6);
     box-shadow: 0 0 30px rgba(0, 212, 255, 0.4), inset 0 0 20px rgba(0, 0, 0, 0.15);
-    padding: 18px 0;
+    padding: 9px 0;
 }
 
 .marquee-track {
@@ -426,8 +426,8 @@ body {
 .marquee-item {
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3px;
+    font-size: 15px;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
     color: #ffffff;
     text-shadow: 0 0 12px rgba(255, 255, 255, 0.6), 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -1093,12 +1093,12 @@ body {
     }
 
     .marquee {
-        padding: 14px 0;
+        padding: 7px 0;
     }
 
     .marquee-item {
-        font-size: 15px;
-        letter-spacing: 2px;
+        font-size: 12px;
+        letter-spacing: 1.8px;
     }
 
     .marquee-group {
