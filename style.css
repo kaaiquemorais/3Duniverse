@@ -201,6 +201,16 @@ body {
     filter: drop-shadow(0 0 40px rgba(0, 212, 255, 0.2));
 }
 
+.hero-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mobile-br {
+    display: none;
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
@@ -480,20 +490,18 @@ body {
     overflow: hidden;
     position: relative;
     background: var(--bg-soft);
-    border: 1.5px solid var(--blue);
+    border: 2px solid var(--blue);
     box-shadow:
-        0 0 20px rgba(0, 212, 255, 0.4),
-        0 0 40px rgba(0, 212, 255, 0.2),
-        inset 0 0 20px rgba(0, 212, 255, 0.05);
+        inset 0 0 14px rgba(0, 212, 255, 0.25),
+        inset 0 0 2px rgba(0, 240, 255, 0.8);
     transition: border-color 0.4s, box-shadow 0.4s;
 }
 
 .carousel-item:hover {
     border-color: var(--cyan);
     box-shadow:
-        0 0 30px rgba(0, 240, 255, 0.8),
-        0 0 60px rgba(0, 240, 255, 0.4),
-        inset 0 0 30px rgba(0, 240, 255, 0.1);
+        inset 0 0 22px rgba(0, 240, 255, 0.5),
+        inset 0 0 4px rgba(0, 240, 255, 1);
 }
 
 .carousel-item img {
@@ -991,8 +999,12 @@ body {
     }
 
     .hero-title {
-        font-size: 1.4rem;
-        line-height: 1.2;
+        font-size: 1.55rem;
+        line-height: 1.25;
+    }
+
+    .mobile-br {
+        display: inline;
     }
 
     .hero-desc {
