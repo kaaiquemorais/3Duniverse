@@ -701,12 +701,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    align-items: stretch;
-}
-
-.why-us-content {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .why-us-content h2 {
@@ -716,10 +711,6 @@ body {
     margin-bottom: 40px;
     margin-top: 14px;
     line-height: 1.2;
-}
-
-.why-us-content .why-list {
-    flex: 1;
 }
 
 .why-list {
@@ -773,8 +764,7 @@ body {
 .why-us-image {
     position: relative;
     display: flex;
-    align-items: stretch;
-    align-self: stretch;
+    justify-content: center;
 }
 
 .image-frame {
@@ -786,9 +776,8 @@ body {
         0 0 40px rgba(0, 212, 255, 0.3),
         0 0 80px rgba(0, 212, 255, 0.15),
         inset 0 0 30px rgba(0, 212, 255, 0.05);
-    flex: 1;
-    width: 100%;
-    align-self: stretch;
+    width: 92%;
+    aspect-ratio: 4 / 5;
 }
 
 .image-frame::before {
