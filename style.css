@@ -211,6 +211,10 @@ body {
     display: none;
 }
 
+.desktop-br {
+    display: inline;
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
@@ -776,8 +780,8 @@ body {
         0 0 40px rgba(0, 212, 255, 0.3),
         0 0 80px rgba(0, 212, 255, 0.15),
         inset 0 0 30px rgba(0, 212, 255, 0.05);
-    width: 92%;
-    aspect-ratio: 4 / 5;
+    width: 82%;
+    aspect-ratio: 1 / 1;
 }
 
 .image-frame::before {
@@ -956,10 +960,15 @@ body {
 
     .image-frame {
         max-width: 500px;
+        width: 100%;
         margin: 0 auto;
         aspect-ratio: 4 / 5;
         height: auto;
         min-height: 0;
+    }
+
+    .desktop-br {
+        display: none;
     }
 
     .hero-content {
